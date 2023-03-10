@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Snake Game</title>
+  <style>
+    #container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    #canvas {
+      border: 10px solid black;
+    }
+    button {
+        margin: 10px;
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10xp;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>Snake Game</h1>
+    <h3 id="score"></h3>
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <div>
+        <button id="start-btn">Start Game</button>
+        <button id="replay-btn" disabled>Replay Game</button>
+        <button id="end-btn" disabled>End Game</button>
+    </div>
+  </div>
+  <script src="snake.js"></script>
+</body>
+</html>
