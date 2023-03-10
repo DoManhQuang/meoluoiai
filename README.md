@@ -1,2 +1,6 @@
-# meoluoiai
-Kênh Youtube Mèo Lười AI
+## Kênh Mèo lười AI
+
+### Backgroud
+* Studyy with me
+* Play gamee with me
+
