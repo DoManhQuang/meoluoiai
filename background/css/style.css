@@ -1,0 +1,96 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 30px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex; /* Added flex display to align items horizontally */
+}
+
+nav ul li {
+	margin-right: 10px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 5px;
+}
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul ul {
+	display: none;
+	position: absolute;
+	top: 30px;
+}
+
+nav ul ul li {
+	display: block;
+	background-color: #555;
+}
+
+nav ul ul li a {
+	color: #fff;
+	padding: 5px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center; /* Added align-items to center items vertically */
+}
+
+.blog-name {
+	flex-basis: 30%; /* Set flex-basis to 50% to take half of the width */
+}
+
+.blog-name h1 {
+	margin: 0;
+}
+
+.left {
+	flex-basis: 20%;
+	padding: 20px;
+}
+
+.middle {
+	flex-basis: 50%;
+	padding: 20px;
+}
+
+.right {
+	flex-basis: 20%;
+	padding: 20px
+}
+
+.blog-name {
+	display: flex;
+	align-items: center;
+}
+
+.blog-name h1 {
+	margin: 0;
+	margin-left: 10px;
+}
+
+.icon-blog {
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
