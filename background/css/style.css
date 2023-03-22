@@ -4,6 +4,11 @@ body {
 	padding: 0;
 }
 
+/* a {
+    color: #303236;
+    text-decoration: none;
+} */
+
 header {
 	background-color: #333;
 	color: #fff;
@@ -68,6 +73,11 @@ nav ul ul li a {
 	flex-basis: 30%; /* Set flex-basis to 50% to take half of the width */
 }
 
+.blog-name a{
+	color: #303236;
+    text-decoration: none;
+}
+
 .blog-name h1 {
 	margin: 0;
 }
@@ -75,6 +85,11 @@ nav ul ul li a {
 .left {
 	flex-basis: 20%;
 	padding: 20px;
+}
+
+.left ul li a{
+	color: #1150cf;
+    text-decoration: none;
 }
 
 .middle {
